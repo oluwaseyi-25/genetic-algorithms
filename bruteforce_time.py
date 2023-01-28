@@ -1,5 +1,5 @@
 from problems import knapsack
-from algorithms import bruteforce
+from algorithms.bruteforce import bruteforce
 import time
 
 weight_limit = 3000

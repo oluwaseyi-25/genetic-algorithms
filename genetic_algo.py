@@ -1,6 +1,7 @@
 from functools import partial
 from problems import knapsack
-from algorithms import bruteforce, genetic
+from algorithms.bruteforce import bruteforce
+from algorithms import genetic
 from utils.analyze import timer
 
 things = knapsack.generate_things(22)
